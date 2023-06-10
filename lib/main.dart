@@ -15,7 +15,7 @@ class _UnityScreenState extends State<UnityScreen> {
   Widget build(BuildContext context) {
     return UnityWebWidget(
       // url: 'http://localhost:${Uri.base.port}/unity/index.html',
-      url: 'http://${Uri.base.host}:${Uri.base.port}/unity/index.html',
+      url: 'https://${Uri.base.host}:${Uri.base.port}/unity/index.html',
       listenMessageFromUnity: _listenMessageFromUnity,
       onUnityLoaded: _onUnityLoaded,
     );
